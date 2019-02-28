@@ -11,10 +11,13 @@ public class TextChanger: MonoBehaviour
 
     public void ChangeText()
     {
-        int randNum;
-        randNum = Random.Range(0, textStuff.Length);
+       
+        int linearNum = 0;
+        linearNum++;
 
-        text.text = textStuff[randNum];
+        Debug.Log("Number is " + linearNum);
+        text.text = textStuff[(linearNum++)];
+
     }
    
 }
