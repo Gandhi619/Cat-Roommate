@@ -7,16 +7,16 @@ public class TextChanger: MonoBehaviour
 {
     public TextMeshProUGUI text;
     public string[] textStuff;
-
+    int linearNum = 0;
 
     public void ChangeText()
     {
        
-        int linearNum = 0;
+        
         linearNum++;
 
         Debug.Log("Number is " + linearNum);
-        text.text = textStuff[(linearNum++)];
+        text.text = textStuff[(linearNum)];
 
     }
    
