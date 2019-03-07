@@ -170,11 +170,9 @@ MonoBehaviour:
   - Night Owl
   - Veggies
   - A little
-  - Love 'em
-  - The most
-  - YEP
-  GoodAnswers: 0
-  BadAnswers: 0
+  - Love'em
+  - Not rly
+  - IDK
 --- !u!114 &5786027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,6 +237,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1329595575}
         m_MethodName: ChangeText
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5786026}
+        m_MethodName: LeftClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -680,8 +689,6 @@ MonoBehaviour:
   - '''How do you feel about naps"'
   - Don't you hate birds?"
   - '"Can I have some belly rubs?"'
-  GoodAnswers: 0
-  BadAnswers: 0
 --- !u!114 &392597401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1398,7 +1405,5 @@ MonoBehaviour:
   - Anchovies
   - Nope
   - Hate 'em
-  - Not rly
-  - IDK
-  GoodAnswers: 0
-  BadAnswers: 0
+  - The most
+  - YEP
