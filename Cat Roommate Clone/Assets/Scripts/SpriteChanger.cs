@@ -21,6 +21,11 @@ public class SpriteChanger : MonoBehaviour
         BadAnswersSpriteChange();
 
     }
+
+
+
+
+
     void GoodAnswersSpriteChange()
     {
         if (TextChanger.GoodAnswers == 1)
@@ -46,6 +51,10 @@ public class SpriteChanger : MonoBehaviour
         if(TextChanger.GoodAnswers == 6)
         {
             Catsr.sprite = spriteList[4];
+        }
+       // if (TextChanger.GoodAnswers > TextChanger.BadAnswers && TextChanger.linearNum > 5)
+        {
+       //     Catsr.sprite = spriteList[1];
         }
     }
     void BadAnswersSpriteChange()
@@ -73,6 +82,10 @@ public class SpriteChanger : MonoBehaviour
         if (TextChanger.BadAnswers == 6)
         {
             Catsr.sprite = spriteList[10];
+        }
+      //  if (TextChanger.BadAnswers > TextChanger.GoodAnswers && TextChanger.linearNum > 5)
+        {
+      //      Catsr.sprite = spriteList[7];
         }
     }
 }
